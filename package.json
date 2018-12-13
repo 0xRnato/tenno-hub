@@ -1,0 +1,41 @@
+{
+  "name": "tenno-hub",
+  "version": "1.0.0",
+  "description": "Tenno Hub",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./server/server.ts",
+    "start": "nodemon ./dist/server/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zRnatoNeto/tenno-hub.git"
+  },
+  "keywords": [
+    "warframe",
+    "tenno",
+    "asda"
+  ],
+  "author": "Renato Neto <rnato.netoo@gmail.com> (https://github.com/zRnatoNeto)",
+  "contributors": [
+    "Renato Neto <rnato.netoo@gmail.com> (https://github.com/zRnatoNeto)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zRnatoNeto/tenno-hub/issues"
+  },
+  "homepage": "https://github.com/zRnatoNeto/tenno-hub#readme",
+  "engines": {
+    "node": "^10.14.0",
+    "npm": "^6.4.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14",
+    "nodemon": "^1.18.7"
+  }
+}
